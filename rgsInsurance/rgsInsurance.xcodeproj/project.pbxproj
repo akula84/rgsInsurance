@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83D02921243DBF74001BEFFC /* rgsInsurance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rgsInsurance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D02921243DBF74001BEFFC /* Росгосстрах.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Росгосстрах.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D02924243DBF74001BEFFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D02928243DBF74001BEFFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83D0292B243DBF74001BEFFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		83D02922243DBF74001BEFFC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83D02921243DBF74001BEFFC /* rgsInsurance.app */,
+				83D02921243DBF74001BEFFC /* Росгосстрах.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +100,7 @@
 			);
 			name = rgsInsurance;
 			productName = rgsInsurance;
-			productReference = 83D02921243DBF74001BEFFC /* rgsInsurance.app */;
+			productReference = 83D02921243DBF74001BEFFC /* Росгосстрах.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rgs.insurance;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Росгосстрах";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rgs.insurance;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Росгосстрах";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

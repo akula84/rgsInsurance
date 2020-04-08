@@ -301,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 90;
 				DEVELOPMENT_TEAM = HH699F6A43;
 				INFOPLIST_FILE = rgsInsurance/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -308,6 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.12;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rgs.insurance;
 				PRODUCT_NAME = "Росгосстрах";
 				SWIFT_VERSION = 5.0;
@@ -320,6 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 90;
 				DEVELOPMENT_TEAM = HH699F6A43;
 				INFOPLIST_FILE = rgsInsurance/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -327,6 +330,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 2.0.12;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.rgs.insurance;
 				PRODUCT_NAME = "Росгосстрах";
 				SWIFT_VERSION = 5.0;

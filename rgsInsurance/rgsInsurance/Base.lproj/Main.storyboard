@@ -69,6 +69,9 @@
                                                         <real key="value" value="6"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="openApp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4V-EU-c4F"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xq2-ae-Nd0">
                                                 <rect key="frame" x="16" y="592" width="382" height="48"/>
@@ -91,21 +94,34 @@
                                                         <real key="value" value="1.5"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="actionSiteRgs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S49-zj-n5D"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Md9-4f-cwq">
+                                                <rect key="frame" x="30" y="296" width="354" height="54"/>
+                                                <connections>
+                                                    <action selector="actionSiteRgs:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKv-Ju-mFc"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="alg-fK-bQg" secondAttribute="trailing" constant="30" id="2KI-kX-4HE"/>
+                                            <constraint firstItem="Md9-4f-cwq" firstAttribute="centerY" secondItem="alg-fK-bQg" secondAttribute="centerY" id="2bP-jR-62m"/>
                                             <constraint firstItem="ObC-Fs-JkH" firstAttribute="top" secondItem="PBN-6S-Wf2" secondAttribute="bottom" constant="24" id="6GW-Ty-xth"/>
                                             <constraint firstItem="xq2-ae-Nd0" firstAttribute="top" secondItem="VaK-5u-efg" secondAttribute="bottom" constant="16" id="8a8-XO-l4F"/>
+                                            <constraint firstItem="Md9-4f-cwq" firstAttribute="height" secondItem="alg-fK-bQg" secondAttribute="height" id="E1K-q8-ryt"/>
                                             <constraint firstItem="IKr-JB-0iZ" firstAttribute="leading" secondItem="qKR-RA-gG1" secondAttribute="leading" constant="30" id="H2m-0m-SuE"/>
                                             <constraint firstItem="PBN-6S-Wf2" firstAttribute="leading" secondItem="qKR-RA-gG1" secondAttribute="leading" constant="30" id="HFV-8O-Box"/>
                                             <constraint firstItem="alg-fK-bQg" firstAttribute="leading" secondItem="qKR-RA-gG1" secondAttribute="leading" constant="30" id="IDw-iO-B1H"/>
                                             <constraint firstItem="ObC-Fs-JkH" firstAttribute="leading" secondItem="qKR-RA-gG1" secondAttribute="leading" constant="30" id="ISh-Rw-FQ8"/>
                                             <constraint firstAttribute="trailing" secondItem="IKr-JB-0iZ" secondAttribute="trailing" constant="30" id="Omh-YK-Ef8"/>
                                             <constraint firstItem="IKr-JB-0iZ" firstAttribute="top" secondItem="uJ8-FR-IRw" secondAttribute="bottom" constant="16" id="RTH-RR-fDy"/>
+                                            <constraint firstItem="Md9-4f-cwq" firstAttribute="width" secondItem="alg-fK-bQg" secondAttribute="width" id="Vkg-bv-CL8"/>
                                             <constraint firstAttribute="trailing" secondItem="VaK-5u-efg" secondAttribute="trailing" constant="16" id="YMi-QE-WPI"/>
                                             <constraint firstItem="VaK-5u-efg" firstAttribute="leading" secondItem="qKR-RA-gG1" secondAttribute="leading" constant="16" id="Z1Y-pg-QA2"/>
+                                            <constraint firstItem="Md9-4f-cwq" firstAttribute="centerX" secondItem="alg-fK-bQg" secondAttribute="centerX" id="ZVP-ql-cIh"/>
                                             <constraint firstAttribute="trailing" secondItem="PBN-6S-Wf2" secondAttribute="trailing" constant="30" id="aT0-rK-JLC"/>
                                             <constraint firstItem="uJ8-FR-IRw" firstAttribute="top" secondItem="alg-fK-bQg" secondAttribute="bottom" constant="13" id="bA7-Lu-06y"/>
                                             <constraint firstItem="uJ8-FR-IRw" firstAttribute="leading" secondItem="qKR-RA-gG1" secondAttribute="leading" constant="30" id="c6o-kD-4zq"/>
@@ -147,6 +163,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="alg-fK-bQg" id="Av5-ZA-bMo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

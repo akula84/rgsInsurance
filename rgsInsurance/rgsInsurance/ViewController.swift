@@ -10,12 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet var topLogoConstraint: NSLayoutConstraint!
+    @IBOutlet var bottomLogoConstraint: NSLayoutConstraint!
+    @IBOutlet var bottomTextConstraint: NSLayoutConstraint!
+    @IBOutlet var bottomRGSConstraint: NSLayoutConstraint!
+    
     @IBOutlet var label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         prepareLabel()
+        prepareConstraint()
+    }
+    
+    func prepareConstraint() {
+        let height = UIScreen.main.bounds.height
+        if height < 900 {
+            topLogoConstraint.constant = 20
+        }
+        
+        if height < 570 {
+            [topLogoConstraint, bottomLogoConstraint, bottomTextConstraint, bottomRGSConstraint].forEach {
+                $0?.constant = 20
+            }
+        }
     }
     
     @IBAction func actionSiteRgs(_ sender: Any) {
